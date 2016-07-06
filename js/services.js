@@ -11,25 +11,25 @@ angular.module('starter.services', [])
 	var planets = [
 
 		{
-	        id: Mercúrio,
-	        name: Mercúrio,
+	        id: 'Mercúrio',
+	        name: 'Mercúrio',
 			metheors:[
 
 			]
     	},
 		{
-	        id: Vênus,
-	        name: Vênus,
+	        id: 'Vênus',
+	        name: 'Vênus',
 			metheors:[
 					{
-						name:MeteoroContraVenus
+						name:'MeteoroContraVenus'
 					},
 
 			]
     	},
 		{
-	        id: Terra,
-	        name: Terra,
+	        id: 'Terra',
+	        name: 'Terra',
 			metheors:[
 
 			]
