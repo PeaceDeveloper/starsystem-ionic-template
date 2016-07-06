@@ -1,14 +1,17 @@
 <ion-view view-title="Sistema estelar">
+        <ion-nav-bar title="Sistema planet�rio do Sol"></ion-nav-bar>
     <ion-content class="padding">
+       
         <div class="list">
             <div class="item" ng-repeat="p in planets">
                 <div class="balanced" ng-click="detail(p);" ng-hide="p.metheors.length">
-                    <b>{{p.name}} - Alerta de colisão de meteoro</b>
-                </div>
-                <div ng-hide="!p.metheors.length" ng-click="detail(p);">
                     {{p.name}}
+                </div>
+                <div class="energized" ng-hide="!p.metheors.length" ng-click="detail(p);">
+                    <b>{{p.name}} - Alerta de colis�o de meteoro</b>
                 </div>
             </div>
         </div>
     </ion-content>
 </ion-view>
+

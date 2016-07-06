@@ -1,20 +1,42 @@
+
+
 angular.module('starter.services', [])
 
 .factory('Planets', function () {
     // Might use a resource here that returns a JSON array
 
     // Some fake testing data
-    var planets = [{
-        id: 0,
-        name: 'Merc�rio'
-    }, {
-        id: 1,
-        name: 'V�nus',
-        metheors: [{ name: 'Metheoro 1' }]
-    }, {
-        id: 2,
-        name: 'Terra'
-    }];
+
+
+	var planets = [
+
+		{
+	        id: Mercúrio,
+	        name: Mercúrio,
+			metheors:[
+
+			]
+    	},
+		{
+	        id: Vênus,
+	        name: Vênus,
+			metheors:[
+					{
+						name:MeteoroContraVenus
+					},
+
+			]
+    	},
+		{
+	        id: Terra,
+	        name: Terra,
+			metheors:[
+
+			]
+    	},
+
+	] 
+    
 
     return {
         all: function () {
@@ -33,3 +55,4 @@ angular.module('starter.services', [])
         }
     };
 });
+
