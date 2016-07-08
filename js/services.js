@@ -31,6 +31,9 @@ angular.module('starter.services', [])
 	        id: 'Terra',
 	        name: 'Terra',
 			metheors:[
+					{
+						name:'Destruidor'
+					},
 
 			]
     	},
