@@ -8,7 +8,6 @@ To use this, either create a new ionic project using the ionic node.js utility, 
 
 ### With the Ionic tool:
 
-Take the name after `ionic-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
 ```bash
 $ sudo npm install -g ionic cordova
